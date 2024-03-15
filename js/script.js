@@ -61,3 +61,31 @@ start();
 // writeYourGenres();
 
 console.log(personalMovieDB);
+
+// // Задача на числа Фибоначчи
+
+// function fib(num) {
+//     if (parseInt(num) !== num || isNaN(num) || num === '') {
+//         return '';
+//     } else {
+//         const first = 0,
+//               second = 1,
+//               arr = [];
+//         let result = '';
+//         for (let i = 0; i < num; i++) {
+//             const next = arr[i - 2] + arr[i - 1];
+//             if (i === 0) {
+//                 arr[i] = first;
+//             } else if (i === 1) {
+//                 arr[i] = second;
+//             } else {
+//                 arr[i] = next;
+//             }
+//         }
+//         for (let j = 0; j < num; j++) {
+// 			result += " ";
+//             result += arr[j];
+//         }
+//         return result.slice(1);
+//     }
+// }
